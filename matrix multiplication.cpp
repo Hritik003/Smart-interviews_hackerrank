@@ -39,10 +39,10 @@ int main()
             {
                 arr[i][j]=0;
                    
-               for(k=0;k<col2;k++)    
+               for(k=0;k<row2;k++)    
                   {    
                arr[i][j]+=arr1[i][k]*arr2[k][j];    
-                 }    
+                 }     
                 printf("%ld ",arr[i][j]);
             }
             printf("\n");
